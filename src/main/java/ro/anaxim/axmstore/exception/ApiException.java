@@ -1,0 +1,8 @@
+package ro.anaxim.axmstore.exception;
+
+public class ApiException extends RuntimeException{
+
+        public ApiException(String message){
+            super(message);
+        }
+}
